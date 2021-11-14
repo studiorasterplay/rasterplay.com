@@ -1,6 +1,8 @@
 body {
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #effffe;
 }
 
 .container {
@@ -26,6 +28,15 @@ body {
     background-size: cover;
 }
 
+.games-section {
+    padding: 110px 0;
+    background-size: cover;
+}
+
+.balloon-challenge-section {
+    background: url("../images/balloon-challenge-section-bg.png") no-repeat center;
+}
+
 .section-content {
     width: 650px;
 }
@@ -38,12 +49,21 @@ body {
     margin-bottom: 50px;
 }
 
-.section-text {
-    color: #231F20;
+.games-section .section-title {
+    color: #fa1d1d;
+    margin-top: 50px;
+}
+
+.about-section .section-text {
+    color: #242021;
+}
+
+.games-section .section-text {
+    color: #f5eeee;
 }
 
 .section-title span {
-    color: #231F20;
+    color: #292526;
 }
 
 .section-text span {
@@ -101,6 +121,15 @@ body {
         background-position: center;
         background-size: cover;
     }
+    .games-section {
+        padding: 80px 0 180px 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .balloon-challenge-section {
+        background-image: url("../images/balloon-challenge-section-mobile-bg.png");
+    }
     .section-content {
         width: auto;
     }
@@ -108,6 +137,9 @@ body {
         font-size: 24px;
         line-height: 30px;
         margin-bottom: 25px;
+    }
+    .games-section .section-title {
+        margin-top: 200px;
     }
     .section.about-section {
         min-height: 410px;
