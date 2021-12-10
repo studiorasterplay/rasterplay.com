@@ -37,8 +37,8 @@ body {
     background-size: cover;
 }
 
-.balloon-challenge-section {
-    background: url("../images/balloon-challenge-section-bg.png") no-repeat center;
+.balloon-city-section {
+    background: url("../images/balloon-city-section-bg.png") no-repeat center;
 }
 
 .section-content {
@@ -78,6 +78,9 @@ body {
     .section {
         min-height: 650px;
     }
+    .section.balloon-city-section {
+        min-height: 700px;
+    }
     .section-content {
         width: 540px;
     }
@@ -91,6 +94,9 @@ body {
 @media (max-width: 1279px) {
     .section {
         min-height: 520px;
+    }
+    .section.balloon-city-section {
+        min-height: 700px;
     }
     .section-content {
         width: 485px;
@@ -114,7 +120,7 @@ body {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 599px) {
     .container {
         padding: 0 15px;
     }
@@ -131,8 +137,8 @@ body {
         background-position: center;
         background-size: cover;
     }
-    .balloon-challenge-section {
-        background-image: url("../images/balloon-challenge-section-mobile-bg.png");
+    .balloon-city-section {
+        background-image: url("../images/balloon-city-section-mobile-bg.png");
     }
     .section-content {
         width: auto;
@@ -143,12 +149,18 @@ body {
         margin-bottom: 25px;
     }
     .games-section .section-title {
-        margin-top: 200px;
+        margin-top: 60px;
     }
     .section.about-section {
         min-height: 410px;
     }
     .section {
         min-height: 570px;
+    }
+}
+
+@media (max-width: 519px) {
+    .games-section.balloon-city-section {
+        background-size: 100% 100%;
     }
 }
