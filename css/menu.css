@@ -36,6 +36,11 @@
     padding: 0px;
 }
 
+.header .logo img {
+    width: 290px;
+    height: 55px;
+}
+
 .header .menu {
     clear: both;
     max-height: 0;
@@ -116,5 +121,9 @@
     }
     .header .menu-icon {
         display: none;
+    }
+    .header .logo img {
+        width: 362px;
+        height: 68px;
     }
 }
